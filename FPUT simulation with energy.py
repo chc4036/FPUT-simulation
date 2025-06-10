@@ -84,7 +84,7 @@ def update(frame):
     ln2.set_data(range(N), E)
     
     # Update time display
-    elapsed_time = frame * dt
+    elapsed_time = (frame+1) * dt
     time_text.set_text(f't = {elapsed_time:.1f}')
     
     # Adjust energy plot y-axis
